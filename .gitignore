@@ -1,0 +1,27 @@
+# 인증키 — 절대 올리지 않는다
+.env
+.env.*
+!.env.example
+
+# 원본 PDF (수업 자료)
+raw/
+
+# 파이썬 부산물
+__pycache__/
+*.pyc
+
+# 로컬 설정
+.claude/settings.local.json
+
+# 발표 자료·질의응답 준비 (다른 조 자료, 개인정보 포함)
+.claude/skills/*.pdf
+.claude/skills/*.zip
+.claude/skills/*질의응답준비*.md
+
+# 과제 폴더·대화 기록
+datascience task/
+대화내용전체.md
+
+# SGIS 테스트 파일
+sgis_test.bat
+sgis_test_log.txt
